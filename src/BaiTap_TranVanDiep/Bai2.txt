@@ -1,0 +1,13 @@
+Viết chương trình sau:
+
+Thread 1: làm nhiệm vụ sinh số ngẫu nhiên từ 1 đến 100
+
+	- Nếu số ngẫu nhiên chia hết cho 3 thì đẩy sang Thread2: Thực hiện in ra bình phương số
+	đó
+	- Nếu số ngẫu nhiên chia hết cho 2 thì đẩy sang Thread3: Thực hiện kiểm tra xem số đó có
+	chia hết cho 4 không và in ra thông báo (chia hết cho 4 hoặc ko)
+	- Nếu tổng các số sinh ngẫu nhiên trong Thread 1 >= 200 thì dừng tất cả các Thread
+	
+Thực hiện đồng bộ 3 Thread (Yêu cầu: Thread1 sinh xong -> đợi cho Thread 2 và Thread 3 thực hiện xong
+mới sinh số ngẫu nhiên tiếp, Thread 2 và Thread 3 đợi cho Thread 1 sinh số ngẫu nhiên xong thì mới thực
+hiện yêu cầu.
